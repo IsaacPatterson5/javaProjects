@@ -1,0 +1,9 @@
+package myJokes;
+
+public class geniusJokes {
+	public static void main(String[] args) {
+	    System.out.println("Hello, My Name Is Isaac"); //Print Welcome Isaac ;)
+	    System.out.println("Why do my initials sound sus?"); //Print Joke Question ;)
+	    System.out.println("Because they're IP, get it?"); //Stupid PunchLine ;)))))
+	  }
+}

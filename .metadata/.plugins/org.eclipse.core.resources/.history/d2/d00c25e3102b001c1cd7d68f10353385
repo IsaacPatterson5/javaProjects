@@ -1,0 +1,65 @@
+package myPrograms;
+
+public class Genius {
+
+	public static void main(String[] args) {
+		gotNames(); // Call Method gotNames()
+		gotJokes(); // Call Method gotJokes()
+		gotCommunityNorms(); // Call Method gotCommunityNorms()
+		gotFunctions(); // Call Method gotFunctions()
+	}
+
+	/* gotNames Method Declaration */
+	public static void gotNames() {
+
+		/* GENIUS NAMES - SAY OUR NAMES */
+		System.out.println("My Name Is Ajani Sterling."); // Print Genius Name
+		System.out.println("My Name Is Isaac Patterson."); // Print Genius Name
+		System.out.println("My Name Is Jordan Stein-Rice."); // Print Genius Name
+		System.out.println(""); // Extra Line
+		System.out.println(""); // Extra Line
+
+	}
+
+	/* gotJokes Method Declaration */
+	public static void gotJokes() {
+
+		/* GENIUS JOKES - WE GOT JOKES */
+		System.out.println("Welcome, My Name Is Isaac!"); // Print My Name
+		System.out.println("Why Do My Initials IP Sound Suspicious?"); // Joke Setup
+		System.out.println("My initials are IP, get it?"); // Joke Punch Line
+		System.out.println(""); // Extra Line
+		System.out.println(""); // Extra Line
+
+	}
+
+	/* gotFunctions Method Declaration */
+	public static void gotFunctions() {
+
+		/* GENIUS METHODS - OUR FUNCTIONS */
+		System.out.println("Humanoid 1: Ajani Sterling"); // Print Function 1
+		System.out.println("--------------------------"); // Print Function 1
+		System.out.println("Humanoid 1 Properties:"); // Print Function 2
+		System.out.println("Eye Color: Brown"); // Print Function 3
+		System.out.println("Hair Color: Black"); // Print Function 4
+		System.out.println("Cohort: Rich-5"); // Print Function 4
+		System.out.println(""); // Extra Line
+
+	}
+
+	/* gotCommunityNorms Method Declaration */
+	public static void gotCommunityNorms() {
+		/* GENIUS COMMUNITY NORMS - KEEP US ACCOUNTABLE */
+		System.out.println("OUR COMMUNITY NORMS");
+		System.out.println("----------------------");
+		System.out.println("1. Ask Your Brothers For Help");
+		System.out.println("2. Communicate With Everyone");
+		System.out.println("3. Make Sure Everyone Grinds Hard A.K.A Stays On Track");
+		System.out.println("4. Give A Helping Hand");
+		System.out.println("5. No Cursing");
+		System.out.println("----------------------");
+		System.out.println(""); // Extra Line
+		System.out.println(""); // Extra Line
+
+	}
+}
