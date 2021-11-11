@@ -1,0 +1,27 @@
+package myPrograms;
+
+import java.util.Scanner;
+
+public class geniusInput {
+
+	public static void main(String[] args) {
+		System.out.println("What is your favorite color?");
+
+		// type identifier = new type();
+		Scanner scanner = new Scanner(System.in);
+		String color = scanner.nextLine();
+
+		System.out.println("Really, my favorite color is " + color + " too.");
+		;
+		
+		System.out.println("Isaac's Question										What is your name?");
+		
+		//type identifier = new type();
+		Scanner scanner2 = new Scanner(System.in);
+		String name = scanner2.nextLine();
+		
+		System.out.println("Nice to meet you " + name + ".");
+		;
+	}
+
+}

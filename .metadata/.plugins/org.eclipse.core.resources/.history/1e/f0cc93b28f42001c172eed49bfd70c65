@@ -1,0 +1,29 @@
+package myPrograms;
+
+import java.util.Scanner;
+
+public class geniusInput {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, my name is Isaac, what is your favorite color?");
+
+		// type identifier = new type();
+		Scanner scanner = new Scanner(System.in);
+		String color = scanner.nextLine();
+
+		System.out.println("Thank you, I'll remember that your favorite color is " + color + ".");
+		;
+		
+		System.out.println("Ajani's Question");
+		System.out.println("----------------------");
+		System.out.println("Hi, my name is Ajani, what is your name?");
+		
+		//type identifier = new type();
+		Scanner scanner2 = new Scanner(System.in);
+		String name = scanner2.nextLine();
+		
+		System.out.println("Nice to meet you " + name + ".");
+		;
+	}
+
+}

@@ -1,0 +1,15 @@
+package myPrograms;
+
+import java.util.Scanner;
+
+public class geniusInput {
+	
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		
+		
+		//type identifier = new type();
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

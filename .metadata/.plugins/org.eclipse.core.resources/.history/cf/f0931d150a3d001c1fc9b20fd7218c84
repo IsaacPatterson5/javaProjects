@@ -1,0 +1,19 @@
+package myPrograms;
+
+import java.util.Scanner;
+
+public class geniusInput {
+	
+	public static void main(String[] args) {
+		System.out.println("What is your favorite color?");
+		
+		
+		//type identifier = new type();
+		Scanner scanner = new Scanner(System.in);
+		String  color = scanner.nextLine();
+				
+				System.out.println("Ah, my favorite color is " + yellow);		
+;		
+	}
+
+}
